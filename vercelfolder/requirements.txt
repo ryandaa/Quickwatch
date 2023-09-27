@@ -1,0 +1,5 @@
+firebase_functions~=0.1.0
+Flask==2.2.2
+youtube-transcript-api==0.6.1
+openai==0.28.0
+flask_cors==4.0.0

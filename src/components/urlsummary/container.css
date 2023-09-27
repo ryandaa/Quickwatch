@@ -1,0 +1,128 @@
+@font-face {
+    font-family: 'Lato';
+    src: url(/Lato-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Neuton';
+    src: url(/NeutonRegular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(/Poppins-Regular.ttf) format('truetype');
+}
+
+@media (max-width: 768px) {
+    .url-input-container {
+        width: 80%;
+        padding: 10px;
+        left: 0;
+    }
+
+    .poppins, .url-input, .summary-box, .error-box {
+        font-size: 0.4rem; 
+    }
+
+    .url-input, .summary-box, .error-box {
+        padding: 4px;
+        margin-top: 4px;
+    }
+
+    .submit-button {
+        right: 10px;
+        top: 55%;
+    }
+
+    .loading-spinner {
+        top: 35%;
+        left: 65%;
+        width: 20px;
+        height: 20px;
+    }
+}
+
+.poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+.url-input-container {
+    position: relative;
+    left: -10px;
+    top: 5px;
+    width: 57%;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.url-input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+
+.url-input-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+.submit-button {
+    position: absolute;
+    right: 25px; 
+    top: 60%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+}
+  
+.url-input {
+    padding-right: 40px; 
+}
+
+.summary-box {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    background-color: white;
+  }
+
+.summary {
+    padding-top: 10px;
+}
+
+.loading-spinner {
+    position: absolute;
+    top: 37%;
+    left: 69%;
+    transform: translate(-50%, -50%);
+    border: 5px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    border-top: 5px solid #000;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+  }
+
+.error-box {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    background-color: #ffe6e6; 
+    color: #cc0000; 
+}
+  
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}

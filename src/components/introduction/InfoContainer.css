@@ -1,0 +1,14 @@
+.info-container {
+    width: 100%; 
+    max-width: 800px; 
+    margin: 0 auto; 
+    padding: 5rem 2rem; 
+    background-color: #ffffff;
+}
+
+
+@media (max-width: 768px) {
+    .info-container {
+        padding: 2rem 1rem;
+    }
+}

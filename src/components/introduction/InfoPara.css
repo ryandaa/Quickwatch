@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Lato';
+    src: url(/Lato-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Neuton';
+    src: url(/NeutonRegular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(/Poppins-Regular.ttf) format('truetype');
+}
+
+@media (max-width: 768px) {
+    .titleparagraph h1 {
+        font-size: 1.5rem;  
+    }
+
+    .infoparagraph p {
+        font-size: 0.4rem; 
+    }
+}
+
+.lato {
+    font-family: 'Lato', sans-serif;
+}
+
+.neuton {
+    font-family: 'Neuton', serif;
+
+}
+
+.poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+.titleparagraph {
+    color: #a6524d;
+    text-align: left;
+    line-height: 1.5em;
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.infoparagraph {
+    color: #012A36;
+    display: flex;
+    text-align: left;
+    margin-top: 1.5em; 
+    max-width: 90%;
+}
+

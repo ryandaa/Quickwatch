@@ -1,0 +1,40 @@
+@keyframes svg-gradient-animation {
+    0% {
+        fill: purple;
+    }
+    50% {
+        fill: red;
+    }
+    100% {
+        fill: purple;
+    }
+}
+
+    .svg-path {
+    animation: svg-gradient-animation 5s infinite ease-in-out;
+    will-change: fill;
+}
+
+.app {
+    text-align: center;
+}
+
+.body {
+    background-color: #ffffff;
+    min-height:calc(100vh - 60px);
+    padding: 20px;
+}
+
+.main-content {
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.svg-container {
+    position: fixed;
+    bottom: 60px;
+    left: 0;
+    width: 100%;
+}
