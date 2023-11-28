@@ -17,23 +17,6 @@ The primary goal of Quickwatch is to provide users with a platform where they ca
 - **Integration with OpenAI:** The backend script processes the YouTube transcripts and summarizes them using the OpenAI API, ensuring accurate and relevant summaries.
 - **Responsive Design:** Built with standard CSS and TailwindCSS, the application is designed to be responsive and user-friendly.
 
-## Components Description
-
-### BottomBar
-- **Styles**: 
-  - Styled with a dark background.
-  - Positioned at the bottom.
-  - Designed to be 60px in height.
-- **Functionality**: 
-  - A React component that provides a fixed navigation or utility bar at the bottom of the interface.
-
-### TopBar
-- **Styles**: 
-  - Styled with a dark background.
-  - Positioned at the top.
-  - Designed to be 60px in height.
-- **Functionality**: 
-  - A React component that serves as a header or navigation bar at the top of the interface.
 
 ## Hosting
 The application is hosted on Vercel, known for its reliability and speed, ensuring that users have a seamless experience while using Quickwatch.
